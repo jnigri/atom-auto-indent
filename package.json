@@ -1,0 +1,14 @@
+{
+  "name": "auto-indent",
+  "main": "./lib/auto-indent",
+  "version": "0.0.0",
+  "description": "This package will allow you to auto-indent your current file",
+  "activationEvents": ["auto-indent:apply"],
+  "repository": "https://github.com/atom/auto-indent",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
