@@ -6,7 +6,7 @@
   "activationEvents": [
     "auto-indent:apply"
   ],
-  "repository": "https://github.com/atom/auto-indent",
+  "repository": "https://github.com/griin/atom-auto-indent",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
