@@ -1,5 +1,3 @@
-  AutoIndentView = require './auto-indent-view'
-
   module.exports =
     activate: ->
       atom.workspaceView.command "auto-indent:apply", => @apply()
