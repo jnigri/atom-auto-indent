@@ -1,6 +1,6 @@
   module.exports =
     activate: ->
-      atom.workspaceView.command "auto-indent:apply", => @apply()
+      atom.commands.add "atom-workspace", "auto-indent:apply": => @apply()
 
     apply: ->
       editor = atom.workspace.activePaneItem
