@@ -1,15 +1,17 @@
 {
-  "name": "auto-indent",
-  "main": "./lib/auto-indent",
-  "version": "0.1.0",
-  "description": "This package will allow you to auto-indent your current file",
-  "activationEvents": [
-    "auto-indent:apply"
-  ],
-  "repository": "https://github.com/griin/atom-auto-indent",
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.50.0"
-  },
-  "dependencies": {}
+    "name": "auto-indent",
+    "main": "./lib/auto-indent",
+    "version": "0.1.0",
+    "description": "This package will allow you to auto-indent your current file",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/griin/auto-indent"
+    },
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    },
+    "dependencies": {
+
+    }
 }
