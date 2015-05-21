@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable auto-indent': 'auto-indent:apply'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Auto-Indent'
+      'submenu': [
+        { 'label': 'Apply', 'command': 'auto-indent:apply' }
+      ]
+    ]
+  }
+]
