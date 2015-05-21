@@ -1,42 +1,17 @@
 {
-  "name": "auto-indent",
-  "main": "./lib/auto-indent",
-  "version": "0.1.0",
-  "description": "This package will allow you to auto-indent your current file",
-  "activationCommands": [
-    "auto-indent:apply"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atom/auto-indent"
-  },
-  "license": "MIT",
-  "engines": {
-    "atom": ">0.50.0"
-  },
-  "dependencies": {},
-  "readme": "# auto-indent package\n\nThis package will allow you to auto-indent your current file. Use the auto-indent:apply command.\n",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/atom/auto-indent/issues"
-  },
-  "homepage": "https://github.com/atom/auto-indent",
-  "_id": "auto-indent@0.1.0",
-  "_shasum": "5bda6d605bf32b88f8e18bd7369d8898f86a9d42",
-  "_resolved": "file:../d-115321-790-7tk1br/package.tgz",
-  "_from": "../d-115321-790-7tk1br/package.tgz",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".coffee": [
-        "lib/auto-indent-view.coffee",
-        "lib/auto-indent.coffee"
-      ],
-      ".json": [
-        "package.json"
-      ]
+    "name": "auto-indent",
+    "main": "./lib/auto-indent",
+    "version": "0.1.0",
+    "description": "This package will allow you to auto-indent your current file",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/griin/auto-indent"
     },
-    "folders": []
-  }
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    },
+    "dependencies": {
+
+    }
 }

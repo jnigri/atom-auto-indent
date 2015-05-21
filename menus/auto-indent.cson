@@ -1,7 +1,11 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.overlayer':
-      'Enable auto-indent': 'auto-indent:apply'
+    'atom-text-editor': [
+        {
+            'label': 'Enable auto-indent',
+            'command': 'auto-indent:apply'
+        }
+    ]
 
 'menu': [
   {
