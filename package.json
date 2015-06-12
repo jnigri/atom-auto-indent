@@ -1,7 +1,7 @@
 {
   "name": "auto-indent",
   "main": "./lib/auto-indent",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "This package will allow you to auto-indent your current file",
   "repository": {
     "type": "git",
